@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="true">
+  <test name="Test">
+    <classes>
+    <groups>
+     <run>
+      <class name="com.expedia.flightsbooking.Sample1"/>
+       <class name="com.expedia.flightsbooking.SampleTest"/>
+      <class name="com.expedia.flightsbooking.SampleTestNGTest"/>
+      <class name="com.expedia.flightsbooking.TestNG1"/>
+        <!--<run><include name ="FundTranserWithinSameBank" /></run>   --> 
+      </run></groups>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
